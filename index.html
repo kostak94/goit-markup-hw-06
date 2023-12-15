@@ -130,7 +130,12 @@
 
           <ul class="team-list">
             <li class="teammate-card">
-              <img src="./images/our_team1.jpg" alt="teammate1" width="264" />
+              <img
+                src="./images/our_team1.jpg"
+                alt="teammate1"
+                width="264"
+                srcset="./images/our_team1.jpg 1x, ./images/our_team1@2x.jpg 2x"
+              />
               <div class="teammate-container">
                 <h3 class="teammate-name">Mark Guerrero</h3>
                 <p class="teammate-proffession">Product Designer</p>
@@ -167,7 +172,12 @@
               </div>
             </li>
             <li class="teammate-card">
-              <img src="./images/our_team2.jpg" alt="teammate2" width="264" />
+              <img
+                src="./images/our_team2.jpg"
+                alt="teammate2"
+                width="264"
+                srcset="./images/our_team2.jpg 1x, ./images/our_team2@2x.jpg 2x"
+              />
               <div class="teammate-container">
                 <h3 class="teammate-name">Tom Ford</h3>
                 <p class="teammate-proffession">Frontend Developer</p>
@@ -204,7 +214,12 @@
               </div>
             </li>
             <li class="teammate-card">
-              <img src="./images/our_team3.jpg" alt="teammate3" width="264" />
+              <img
+                src="./images/our_team3.jpg"
+                alt="teammate3"
+                width="264"
+                srcset="./images/our_team3.jpg 1x, ./images/our_team3@2x.jpg 2x"
+              />
               <div class="teammate-container">
                 <h3 class="teammate-name">Camila Garcia</h3>
                 <p class="teammate-proffession">Marketing</p>
@@ -241,7 +256,12 @@
               </div>
             </li>
             <li class="teammate-card">
-              <img src="./images/our_team4.jpg" alt="teammate4" width="264" />
+              <img
+                src="./images/our_team4.jpg"
+                alt="teammate4"
+                width="264"
+                srcset="./images/our_team4.jpg 1x, ./images/our_team4@2x.jpg 2x"
+              />
               <div class="teammate-container">
                 <h3 class="teammate-name">Daniel Wilson</h3>
                 <p class="teammate-proffession">UI Designer</p>
@@ -289,6 +309,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img1.jpg"
+                  srcset="
+                    ./images/porfolio_img1.jpg    1x,
+                    ./images/porfolio_img1@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -307,6 +331,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img2.jpg"
+                  srcset="
+                    ./images/porfolio_img2.jpg    1x,
+                    ./images/porfolio_img2@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -326,6 +354,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img3.jpg"
+                  srcset="
+                    ./images/porfolio_img3.jpg    1x,
+                    ./images/porfolio_img3@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -344,6 +376,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img4.jpg"
+                  srcset="
+                    ./images/porfolio_img4.jpg    1x,
+                    ./images/porfolio_img4@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -362,6 +398,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img5.jpg"
+                  srcset="
+                    ./images/porfolio_img5.jpg    1x,
+                    ./images/porfolio_img5@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -380,6 +420,10 @@
               <div class="portfolio-images-container">
                 <img
                   src="./images/porfolio_img6.jpg"
+                  srcset="
+                    ./images/porfolio_img6.jpg    1x,
+                    ./images/porfolio_img6@2x.jpg 2x
+                  "
                   alt="portfolio-img1"
                   width="360"
                 />
@@ -455,15 +499,16 @@
                 placeholder="E-mail"
               />
             </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe<svg class="icon-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegramm"></use>
+              </svg>
+            </button>
           </form>
-          <button type="submit" class="subscribe-btn">
-            Subscribe<svg class="icon-subscribe" width="24" height="24">
-              <use href="./images/icons.svg#icon-telegramm"></use>
-            </svg>
-          </button>
         </div>
       </div>
     </footer>
+
     <div class="modal-overlay">
       <div class="modal-form-container">
         <button type="button" class="close-btn">
@@ -547,7 +592,7 @@
         </form>
       </div>
     </div>
-    <div class="burger-menu-overlay is-open">
+    <div class="burger-menu-overlay">
       <div class="burger-menu">
         <button type="button" class="close-burger-btn">
           <svg class="close-burger-btn-icon" width="8" height="8">
